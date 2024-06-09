@@ -24,3 +24,12 @@ Text: The full text of the news article.
 Label: The label indicating whether the news is real (1) or fake (0).
 Source
 The dataset can be found on Kaggle: Fake News Dataset.
+**Model Training**
+The model training process involves several steps:
+
+**Data Preprocessing:** Handling missing values, text cleaning, tokenization, and vectorization (e.g., TF-IDF).
+**Model Selection:** Experimenting with different models, including logistic regression, SVM, and random forests.
+**Training**: Training the selected model using the training dataset.
+Hyperparameter Tuning: Optimizing the model parameters for better performance.
+**Evaluation**
+The model is evaluated using common metrics such as accuracy.
